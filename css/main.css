@@ -7,10 +7,14 @@ html {
     box-sizing: inherit;
   }
 
-.photo {
-  grid-template-rows: 1fr 3fr 1fr;
-  grid-template-areas:
-  "images/Temple_of_Artemis.jpg"
-  "images/Colossus_of_Rhodes.jpg"
-  "images/Maerten_van_Heemskerck_-_Panorama_with_the_Abduction_of_Helen_Amidst_the_Wonders_of_the_Ancient_World_-_Walters_37656.jpg"
+header {
+  background-color: none;
+  padding: 1em;
+  grid-area: header;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
