@@ -22,7 +22,7 @@ main {
   grid-template-areas:
   "banner banner banner"
   "col1 col2 col3";
-  gaps: 0.75em;
+  gap: 0.75em;
 }
 
 .img-banner {
