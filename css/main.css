@@ -1,13 +1,10 @@
 html {
-  box-sizing: html {
-    box-sizing: border-box;
-    font-family: Merriweather, serif;
-    line-height: 1.5;
-  }
+  box-sizing: border-box;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 img {
   width:100%;
