@@ -40,7 +40,8 @@ header {
   padding: 1.5rem 1rem;
 }
 
-.banner-text h2 {
+.banner-text h2,
+.banner-text p {
   margin-bottom: 0;
 }
 
