@@ -23,7 +23,7 @@ main {
   gaps: .75em;
 }
 
-.banner {
+.img-banner {
   grid-area: banner;
 }
 
